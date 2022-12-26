@@ -20,6 +20,10 @@ imagesList.forEach(function(el){
         let attribute = el.getAttribute('src')
         event.preventDefault()
         if (!el.classList.contains('mainimage'))
-        {mainimage.setAttribute('src',attribute)}
+        {mainimage.setAttribute('src',attribute)
+        imagesList.forEach(function(ele){
+            ele.classList.remove('opacityimage')
+        })
+         el.classList.add('opacityimage')}
     })
 })
