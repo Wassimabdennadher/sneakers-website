@@ -177,15 +177,15 @@ h5{
     border: none;
     border-radius: 10px;
     text-transform: capitalize;
-    transition: width 2s, border-radius 2s;
-    transition-timing-function: ease-in-out;
+    /* transition: width 2s, border-radius 2s;
+    transition-timing-function: ease-in-out; */
     
 }
-.add-to-cart:hover {
+/* .add-to-cart:hover {
     background-color: white;
     border: 2px solid orangered;
     border-radius: 0px;
     color: orangered;
     width: 200px;
-}
+} */
 
